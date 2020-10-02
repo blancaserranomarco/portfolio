@@ -1,0 +1,548 @@
+@font-face{
+font-family: "theinhardt";
+src:url("../type/TheinhardtHeavy.otf");
+}
+@font-face{
+    font-family: "theinhardt_med";
+    src:url("../type/TheinhardtMed.otf");
+    }
+    @font-face{
+        font-family: "SF_semi";
+        src:url("../type/SFUIText-Semibold.otf");
+        }
+@media only screen and (min-width:1441px){
+    body{
+        max-width: 1440px;
+        margin: auto
+     }
+}
+* {
+    box-sizing: border-box;
+}
+
+/* NAV BAR */
+
+a{
+    color: #292929;
+    font-size: 18px;
+    text-decoration: none;
+    font-family: "theinhardt_med",sans-serif;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+nav{
+    width: 100%;
+    background: #fffffff0;
+    display: flex;
+    position: fixed;
+    justify-content: center;
+	filter: none; 
+    text-align: right;
+    z-index:1000
+    
+ }  
+
+ .navbar_words{
+    padding-top: 1%;
+    padding-bottom: 1%;
+    justify-content: space-between;
+    background-size: cover; 
+ }
+ .navbar_words_txt:hover{
+    color:#F16830 ;
+
+ }
+
+
+
+/* CABECERA */
+.cabecera{
+display: flex;
+justify-content: space-between;
+}
+
+.bailarina{
+    padding-top: 2%;
+}
+
+.bailarina_1{
+    display:block;
+}
+.bailarina_2{
+    display:none;
+}
+.bailarina:hover .bailarina_1{
+    display: none;
+}
+.bailarina:hover .bailarina_2{
+    display: block;
+}
+
+
+.hello{
+    background-size: cover;
+    font-size: 80px;
+    font-family: "theinhardt",sans-serif;
+    padding-top: 7%;
+    color: #292929;      
+}
+
+h1{
+    margin-left: 5%;
+    border-bottom: 7px solid #292929;
+    width: 550px;
+    
+}
+
+.uxui{
+    margin-left: 5%;
+    font-size: 33px;
+    font-family: "theinhardt_med",sans-serif;
+    padding-top: 4%;
+    color: #292929;
+}
+
+
+.uxuitext{
+    margin-left: 5%;
+    font-size: 20px;
+    font-family: "SF_semi",sans-serif; 
+    line-height: 150%; 
+    width: 550px;
+    padding-top: 1%;
+    padding-bottom: 5%;
+    color: #292929;
+}
+.btn {
+    display:flex;
+    flex-direction: column;
+}   
+
+.btn_linkedin{
+    text-decoration: none;
+    padding-top: 20px;
+    padding-bottom:15px;
+    padding-right: 75px;
+    padding-left: 75px;
+    font-family: "theinhardt_med",sans-serif;
+    font-size: 24px;
+    background-color: #292929;
+    color: #ffffff;
+    border-radius: 50px;
+    margin-left: 10%;
+    margin-top: 2%; 
+    margin-bottom: 32px;
+}
+ 
+
+.btn_CV{
+    text-decoration: none;
+    padding-top: 20px;
+    padding-bottom:15px;
+    padding-right: 70px;
+    padding-left: 70px;
+    font-family: "theinhardt_med",sans-serif;
+    font-size: 24px;
+    background-color: #ffffff;
+    color: #292929;
+    border-radius: 50px;
+    border-width: 3px;
+    margin-left: 10%;
+    margin-top: 0;
+    margin-bottom: 96px;  
+}
+
+
+/* WHAT CAN I DO */
+
+
+.what_can_I_do{
+    font-size: 50px;
+    font-family: "theinhardt",sans-serif;
+    text-align: center;
+    justify-content: center;
+    color: #292929;
+}
+
+
+.what_can_I_do_icn{
+    display:block;
+}
+.what_can_I_do_icn_H{
+    display:none;
+}
+.icn0:hover .what_can_I_do_icn{
+    display: none;
+}
+.icn0:hover .what_can_I_do_icn_H{
+    display: block;
+}
+
+
+.what_can_I_do_icn1{
+    display:block;
+}
+.what_can_I_do_icn_H1{
+    display:none;
+}
+.icn1:hover .what_can_I_do_icn1{
+    display: none;
+}
+.icn1:hover .what_can_I_do_icn_H1{
+    display: block;
+}
+
+
+.what_can_I_do_icn2{
+    display:block;
+}
+.what_can_I_do_icn_H2{
+    display:none;
+}
+.icn2:hover .what_can_I_do_icn2{
+    display: none;
+}
+.icn2:hover .what_can_I_do_icn_H2{
+    display: block;
+}
+
+.icn012{
+    display: flex;
+    flex-direction:row;
+    justify-content:center;
+    margin-bottom: 96px; 
+}
+
+
+/* PROYECTOS */
+/* my_latest_work */
+
+
+
+.my_latest_work_unit{
+    font-size: 50px;
+    font-family: "theinhardt",sans-serif;
+    text-align: center;
+    justify-content: center;
+    color: #292929;  
+    background-color: #F8F8F8; 
+    height: 900px;
+    padding-top: 80px;
+    
+    
+    
+}
+
+.my_latest_work{
+    position: relative;
+    width: 100%;
+    
+}
+.title_my_latest_work{
+    padding-bottom: 3%;
+
+}
+
+
+.poketwatch{
+    display: block;
+    width: 100%;
+    height: auto; 
+    
+}
+
+.poketwatch_light{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #f8f8f8ee; 
+    display: flex;
+}
+
+.btn_pocketwatch{
+text-decoration: none;
+padding-top: 20px;
+padding-bottom:15px;
+padding-right: 80px;
+padding-left: 80px;
+font-family: "theinhardt_med",sans-serif;
+font-size: 24px;
+background-color: #292929;
+color: #ffffff;
+border-radius: 50px;
+margin-top: 5%; 
+white-space: nowrap;
+
+}
+
+
+.my_latest_work:hover .poketwatch_light {
+        opacity: 1;
+        
+}
+
+.poketwatch_light_text{
+    padding-top: 120px;
+    padding-left: 15%;
+    padding-right: 15%;
+    font-size: 25px;
+    color: #292929; 
+    font-family: "theinhardt_med",sans-serif; 
+    line-height: 150%;
+    margin-left: 5%; 
+}
+
+/* poketwatch */
+.watchpoket_section{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    margin-left: 7%;
+    margin-right: 10%;
+    margin-top: 5%;
+    margin-bottom: 2%;
+}  
+
+.watchpoket_text{
+ margin-top: 20%; 
+ margin-left: 25%;  
+ background-image: url("../images/click_here.png");
+}
+  
+.watchpoket_text_h3{
+    font-family: "theinhardt_med",sans-serif; 
+    font-size: 25px;
+    color: #292929; 
+}    
+.watchpoket_text_p{
+    font-size: 18px;
+    font-family: "SF_semi",sans-serif; 
+    line-height: 150%; 
+    
+    padding-top: 1%;
+    padding-bottom: 5%;
+    color: #292929;
+    
+}
+
+.linea_separacion{
+    padding-top: 10%;   
+}
+
+
+
+/* pasteleria */
+
+
+.pasteleria_section{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 7%;
+    margin-right: 10%;
+    margin-top: 2%;
+    margin-bottom: 10%;
+    
+}  
+
+.pasteleria_text{
+ margin-top: 20%; 
+ margin-right: 25%; 
+ background-image: url("../images/click_eye.png"); 
+}
+  
+.pasteleria_text_h3{
+    font-family: "theinhardt_med",sans-serif; 
+    font-size: 25px;
+    color: #292929; 
+}    
+.pasteleria_text_p{
+    font-size: 18px;
+    font-family: "SF_semi",sans-serif; 
+    line-height: 150%; 
+    
+    padding-top: 1%;
+    padding-bottom: 5%;
+    color: #292929;   
+}
+
+
+
+/* FOOTER */
+
+
+
+footer{
+    background-color: #292929;
+    font-family: "theinhardt-med",sans-serif;
+    text-align: center;
+    justify-content: center;
+    color: #ffffff;
+    padding-bottom: 3%;
+}
+
+.icns_footer{
+    font-size: 16px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content:center;
+    background-size: cover; 
+}
+.media{
+padding-left:40px;
+}
+
+.heart {
+    fill: #ffffff;
+    position: relative;
+    top: 0px;
+    width: 10px;
+    animation: pulse 1s ease infinite;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+@keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.5); }
+    100% { transform: scale(1); }
+  }  
+
+
+.mobile_content{
+    display: none;
+
+}
+h2{
+font-size: 15px;
+text-align: center;   
+}
+h3{
+font-size: 40px;
+padding-top: 20%;
+padding-right: 10%;
+padding-left: 10%;
+padding-bottom: 10%;
+color: #292929; 
+}
+.bailarina_phone1{
+width: 90%;  
+}
+
+
+  @media only screen and (max-width: 415px) {
+  
+    .desktop_content {
+      display: none;
+    }
+    .mobile_content{
+        display: block;
+    }
+
+
+  }
+
+
+
+
+
+
+
+  /* C O N T A C T __ L I N K */
+  
+
+  .cabecera_contacto{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    margin-right: 20%;
+    padding-top: 3%;
+    }
+
+    
+    .trapecista_1{
+        display:block;
+    }
+    .trapecista_2{
+        display:none;
+    }
+    .trapecista:hover .trapecista_1{
+        display: none;
+    }
+    .trapecista:hover .trapecista_2{
+        display: block;
+    }
+
+h5{
+font-family: "theinhardt_med",sans-serif;
+font-size: 13px;
+text-align: center;
+}
+
+.redes {
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.emailblanca{
+display: flex;  
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.emailicon{
+padding-top: 10%;
+padding-bottom: 10%;
+}
+ 
+.mobilephone{
+ display: flex;  
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ }
+
+ .mobileicon{
+padding-top: 10%;
+padding-bottom: 20%;
+}
+
+
+
+
+
+
+
+    
+  /* R E S P O N S I V E
+  
+  
+    @media only screen and (min-width: 415px) and (max-width: 768px) {
+  
+    }
+    
+    @media only screen and (min-width: 769px) and (max-width: 1024px) {
+      
+    }
+    
+    @media only screen and (min-width: 1025px) and (max-width: 1440px) {
+      
+    }
+    
+    @media only screen and (min-width: 1441px) {
+      body {
+        max-width: 1440px;
+        margin: auto;
+      }
+    }
+
+    */
