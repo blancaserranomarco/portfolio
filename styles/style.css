@@ -296,7 +296,6 @@ white-space: nowrap;
     color: #292929; 
     font-family: "theinhardt_med",sans-serif; 
     line-height: 150%;
-    margin-left: 5%; 
 }
 
 /* poketwatch */
@@ -446,7 +445,6 @@ width: 90%;
         display: block;
     }
 
-
   }
 
 
@@ -502,6 +500,7 @@ align-items: center;
 .emailicon{
 padding-top: 10%;
 padding-bottom: 10%;
+
 }
  
 .mobilephone{
@@ -509,11 +508,17 @@ padding-bottom: 10%;
  flex-direction: column;
  justify-content: center;
  align-items: center;
+
  }
 
- .mobileicon{
+.mobileicon{
 padding-top: 10%;
 padding-bottom: 20%;
+
+}
+
+h5{
+    white-space: nowrap;
 }
 
 
