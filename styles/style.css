@@ -424,7 +424,7 @@ h2{
 font-size: 15px;
 text-align: center;   
 }
-h3{
+h6{
 font-size: 40px;
 padding-top: 20%;
 padding-right: 10%;
@@ -480,7 +480,7 @@ width: 90%;
         display: block;
     }
 
-h5{
+h4{
 font-family: "theinhardt_med",sans-serif;
 font-size: 13px;
 text-align: center;
