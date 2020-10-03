@@ -761,7 +761,7 @@ padding-top: 15%;
 display: flex;
 flex-wrap: nowrap;
 flex-direction: column;
-font-size: 42px;
+font-size: 50px;
 }
 h1{  
 
@@ -771,11 +771,12 @@ border-bottom: 5px solid #292929;
 }
 
 .uxui{
-font-size: 22px;  
+margin-left: 5%;
+font-size: 23px;  
 flex-wrap: nowrap;  
 }
 .uxuitext{
-font-size: 16px;  
+font-size: 18px;  
 flex-wrap: nowrap; 
 width: 400px; 
 padding-left: 30px;
@@ -826,26 +827,26 @@ align-items: baseline;
 margin-bottom: 20px; 
 }
 .icn0_img{
-width: 100%;    
+width: 120%;    
 }
         
 .icn0_img_h{
-width: 100%;    
+width: 120%;    
 }
 .icn1_img{
-width: 100%;    
+width: 120%;    
 }
         
 .icn1_img_h{
-width: 100%;    
+width: 120%;    
 }
         
 .icn2_img{
-width: 100%;    
+width: 120%;    
 }
         
 .icn2_img_h{
-width: 100%;    
+width: 120%;    
 }
         
 /* LATEST WORK */
@@ -889,7 +890,7 @@ padding-top: 4%;
 padding-bottom: 7%;
 padding-left: 10%;
 padding-right: 10%;
-font-size: 15px;
+font-size: 17px;
 color: #292929; 
 font-family: "theinhardt_med",sans-serif; 
 line-height: 100%;
@@ -977,31 +978,51 @@ margin-left: 0%;
 margin-right: 0%; 
 margin-bottom: 15%;   
  }
-        
+
+.pasteleria_gif_prototype{
+width: 90%;
+padding-right: 0%;
+}
+
 .pasteleria_gif{
 display: flex;
 align-items: center;
 margin-left: 20%;
 margin-top: 7%; 
 }
-        
+
+.pasteleria_text_h3{
+    font-size: 22px;
+}
+
 .pasteleria_text{
 margin-top: 10%; 
 margin-left: 10%; 
 margin-right: 10%;
 background-image: none
 }
-        
+
+.pasteleria_text_p{
+ text-align: center;
+font-size: 16px;
+font-family: "SF_semi",sans-serif;
+line-height: 130%;
+color: #292929;
+padding-top: 2%;
+padding-bottom: 4%;
+}
+
+
 .btn_pasteleria_section{
 display:block;
 text-decoration: none;
-margin-left: 20%;
+margin-left: 5%;
 padding-top: 20px;
 padding-bottom:15px;
 padding-right: 80px;
 padding-left: 80px;
 font-family: "theinhardt_med",sans-serif;
-font-size: 24px;
+font-size: 18px;
 background-color: #292929;
 color: #ffffff;
 border-radius: 50px;
