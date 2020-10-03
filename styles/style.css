@@ -808,6 +808,10 @@ width: 400px;
 padding-left: 30px;
 }
 
+a{
+padding-right: 0px;
+}
+
 .btn_linkedin{
     font-size: 18px;
 
@@ -820,7 +824,7 @@ margin-bottom: 10px;
  }
         
 .btn{
-margin-right: 15%;  
+margin-right:0%;  
 }
         
 .bailarina{
@@ -921,6 +925,7 @@ color: #292929;
 font-family:"SF_semi",sans-serif;
 line-height: 130%;
 text-align: left;
+
 }
             
 .btn_pocketwatch{
@@ -983,7 +988,7 @@ padding-right: 12%;
 .btn_watchpoket_section{
 display:block;
 text-decoration: none;
-margin-left: 5%;
+margin-left: 0%;
 padding-top: 20px;
 padding-bottom:15px;
 padding-right: 80px;
