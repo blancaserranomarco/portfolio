@@ -421,6 +421,7 @@ padding-left:40px;
   
 
   .cabecera_contacto{
+    width: 1440px;
     display: flex;
     justify-content: space-between;
     flex-direction: row-reverse;
@@ -728,6 +729,9 @@ margin-top: 7%;
 }
 
 /* CONTACTO_section */
+.cabecera_contacto{
+width: 768px;    
+}
 .trapecista{
 display: none;
 }
@@ -735,22 +739,12 @@ h5{
 font-size: 15px;   
 }
 .redes{
-padding-bottom: 22%;
+padding-bottom: 12%;
 }
-
 .contact_me{
-    margin-left: 20%;
+margin-left: 0%;
 }
-
-
-
-
-
-
-
-
- 
-    
+   
 /* footer */
 .icns_footer{
     display: flex;
@@ -759,7 +753,12 @@ padding-bottom: 22%;
 }
    
 }
-    
+
+
+
+
+      /* RESPONSIVE MOBILE */
+
 @media only screen and (max-width:415px){
 
     /* NAB BAR */
@@ -816,6 +815,7 @@ padding-left: 30px;
 
 .btn_CV{
 font-size: 18px;
+margin-bottom: 10px;
    
  }
         
@@ -826,15 +826,16 @@ margin-right: 15%;
 .bailarina{
 display: flex;  
 align-content: center;
-padding-left: 25%;
+padding-left: 0%;
 padding-bottom: 5%;
 }
+
 .bailarina_1_img{
-width: 80%;
+width: 110%;
 align-items: center;
 }
 .bailarina_2_img{
-width: 80%;
+width: 110%;
 align-items: center;
 }
         
@@ -1089,17 +1090,16 @@ padding-left:0px;
 }
 
 .heart {
-    fill: #ffffff;
-    position: relative;
-    top: 0px;
-    width: 10px;
-    animation: pulse 1s ease infinite;
-    margin-left: 5px;
-    margin-right: 5px;
+fill: #ffffff;
+position: relative;
+top: 0px;
+width: 10px;
+animation: pulse 1s ease infinite;
+margin-left: 5px;
+margin-right: 5px;
 }
 
 /* C O N T A C T O */
-
 .trapecista{
 display: none;
 }
@@ -1152,68 +1152,6 @@ width: 40%;
 padding-bottom: 10%;
 width: 40%;    
 }
-
-
-
-
-
-
-
-
-
-      /* footer */
-
-footer{
-
-width: 414px;
-     
- }
- .icns_footer{
-align-content: space-between;  
- display: flex;
-justify-content: center;  
- }
-.media_behance_img{
- width: 40%;
- }
- .media_medium_img{
- width: 40%;
- }
-    
- .media_dribbble_img{
- width: 40%;
- }
- .media_linkedin_img{
-width: 40%;
-}
-    
-.media{
-padding-left:0px;
-}
-    
-.heart {
-fill: #ffffff;
-position: relative;
-top: 0px;
-width: 10px;
-animation: pulse 1s ease infinite;
-margin-left: 5px;
-margin-right: 5px;
-}    
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 }
