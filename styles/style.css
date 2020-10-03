@@ -118,6 +118,7 @@ h1{
     display:flex;
     flex-direction: column;
     white-space: nowrap;
+    margin-right: 10%;
 }   
 
 .btn_linkedin{
@@ -376,6 +377,9 @@ white-space: nowrap;
     color: #292929;   
 }
 
+.btn_pasteleria_section{
+display: none;
+}
 
 
 /* FOOTER */
@@ -490,7 +494,7 @@ padding-bottom: 20%;
 
 @media only screen and (min-width: 415px) and (max-width: 768px) {
  
-    /* NAB BAR */
+/* NAB BAR */
 nav{
 width: 768px;
 }
@@ -519,7 +523,8 @@ margin-bottom: 5%;
 }
 
 .btn{
-margin-right: 10%;   
+margin-right: 15%;  
+margin-left: 3%; 
  }
 
 .bailarina{
@@ -725,12 +730,300 @@ margin-top: 7%;
     align-content: center;
     margin-left: -5%;
 }
-
-
    
 }
     
+@media only screen and (max-width:415px){
 
+    /* NAB BAR */
+ nav{
+width: 414px;
+ }
+        
+.navbar_words{
+font-size: 15%;
+padding-bottom: 3%;
+padding-top: 3%;
+}
+        
+.cabecera{
+display: flex;
+flex-wrap: nowrap;
+flex-direction: column;   
+}
+        
+/* CABECERA */
+
+
+.hello{
+margin-left: 0%;
+padding-top: 15%;
+display: flex;
+flex-wrap: nowrap;
+flex-direction: column;
+font-size: 42px;
+}
+h1{  
+
+padding-top: 5%;
+width: 350px; 
+border-bottom: 5px solid #292929;
+}
+
+.uxui{
+font-size: 22px;  
+flex-wrap: nowrap;  
+}
+.uxuitext{
+font-size: 16px;  
+flex-wrap: nowrap; 
+width: 400px; 
+padding-left: 30px;
+}
+
+.btn_linkedin{
+    font-size: 18px;
+
+}
+
+.btn_CV{
+margin-bottom: 5%;
+font-size: 18px;
+   
+ }
+        
+.btn{
+margin-right: 15%;  
+margin-left: 5%; 
+}
+        
+.bailarina{
+display: flex;  
+align-content: center;
+padding-left: 25%;
+padding-bottom: 5%;
+}
+.bailarina_1_img{
+width: 80%;
+align-items: center;
+}
+.bailarina_2_img{
+width: 80%;
+align-items: center;
+}
+        
+/* WHAT CAN I DO */
+
+.what_can_I_do{
+font-size: 37px;
+}
+
+
+.icn012{
+display: flex;
+flex-wrap: nowrap;
+align-items: baseline;
+margin-bottom: 20px; 
+}
+.icn0_img{
+width: 100%;    
+}
+        
+.icn0_img_h{
+width: 100%;    
+}
+.icn1_img{
+width: 100%;    
+}
+        
+.icn1_img_h{
+width: 100%;    
+}
+        
+.icn2_img{
+width: 100%;    
+}
+        
+.icn2_img_h{
+width: 100%;    
+}
+        
+/* LATEST WORK */
+        
+.my_latest_work_unit{
+width: 414px;
+font-size: 37px;   
+background-color:#f8f8f8;
+padding-bottom: 100px;
+padding-top: 30px;
+height: 600px;
+}
+
+.poketwatch_img {
+width: 414px;
+display: none;    
+}
+.poketwatch_img_ipad{
+width: 414px;
+display: block;
+background-color: #f8f8f8;  
+display: flex;  
+align-content: center;       
+ }
+
+.poketwatch_light{
+position: relative;
+top: auto;
+bottom: 0;
+left: 0;
+right: 0;
+height: 100%;
+width: 100%;
+opacity: 1;
+transition: .5s ease;
+background-color: #f8f8f8ee; 
+display: flex;
+}
+.poketwatch_light_text{
+padding-top: 4%;
+padding-bottom: 7%;
+padding-left: 10%;
+padding-right: 10%;
+font-size: 15px;
+color: #292929; 
+font-family: "theinhardt_med",sans-serif; 
+line-height: 100%;
+}
+            
+.btn_pocketwatch{
+text-decoration: none;
+padding-top: 20px;
+padding-bottom:15px;
+padding-right: 80px;
+padding-left: 80px;
+font-family: "theinhardt_med",sans-serif;
+font-size: 18px;
+background-color: #292929;
+color: #ffffff;
+border-radius: 50px;
+margin-top: 5%; 
+margin-bottom: 0%; 
+white-space: nowrap;
+}
+        
+.img_linea_separación{
+width: 414px;   
+}
+        
+/* poketwatch_section */
+.watchpoket_section{
+display: flex;
+flex-direction: column-reverse;
+align-content: center;
+margin-left: 0%;
+margin-right: 0%;
+}  
+.watchpoket_gif{
+display: flex;
+align-items: center;
+margin-left: 10%;
+margin-top: 7%; 
+}
+.prototype_watchpoket_gif{
+width: 250px;
+}
+.watchpoket_text{
+margin-top: 10%; 
+margin-left: 10%; 
+margin-right: 10%;
+background-image: none
+}
+.watchpoket_text_h3{
+font-size: 22px;    
+}        
+.watchpoket_text_p{
+font-size: 16px;
+font-family: "SF_semi",sans-serif; 
+line-height: 130%; 
+color: #292929; 
+padding-top: 2%;
+padding-bottom: 4%;   
+}
+
+.btn_watchpoket_section{
+display:block;
+text-decoration: none;
+margin-left: 5%;
+padding-top: 20px;
+padding-bottom:15px;
+padding-right: 80px;
+padding-left: 80px;
+font-family: "theinhardt_med",sans-serif;
+font-size: 18px;
+background-color: #292929;
+color: #ffffff;
+border-radius: 50px;
+margin-top: 5%; 
+white-space: nowrap;
+}
+        
+/* pasteleria_section */
+        
+.pasteleria_section{
+display: flex;
+flex-direction: column-reverse;
+align-content: center;
+margin-left: 0%;
+margin-right: 0%; 
+margin-bottom: 15%;   
+ }
+        
+.pasteleria_gif{
+display: flex;
+align-items: center;
+margin-left: 20%;
+margin-top: 7%; 
+}
+        
+.pasteleria_text{
+margin-top: 10%; 
+margin-left: 10%; 
+margin-right: 10%;
+background-image: none
+}
+        
+.btn_pasteleria_section{
+display:block;
+text-decoration: none;
+margin-left: 20%;
+padding-top: 20px;
+padding-bottom:15px;
+padding-right: 80px;
+padding-left: 80px;
+font-family: "theinhardt_med",sans-serif;
+font-size: 24px;
+background-color: #292929;
+color: #ffffff;
+border-radius: 50px;
+margin-top: 5%; 
+white-space: nowrap;
+}
+            
+/* footer */
+.icns_footer{
+width: 414px;
+display: flex;
+align-content: center;
+margin-left: -5%;
+}
+
+
+
+
+
+
+
+}
 
 
 
