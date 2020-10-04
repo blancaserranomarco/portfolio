@@ -32,29 +32,36 @@ a{
 }
 
 nav{
-    width: 100%;
+    width: 1440px;
     background: #fffffff0;
     display: flex;
     position: fixed;
-    justify-content: center;
-	filter: none; 
     text-align: right;
     z-index:1000
-    
  }  
+
 
  .navbar_words{
     padding-top: 1%;
     padding-bottom: 1%;
+    display: flex;
     justify-content: space-between;
-    background-size: cover; 
+    margin: 0 auto;
  }
  .navbar_words_txt:hover{
     color:#F16830 ;
-
  }
 
-
+ .navbar_words_txt_eng{
+display: flex;  
+padding-top: 10%;
+width: 100%;
+margin-left: -40%;
+color:#8b8b8b;
+}
+.navbar_words_txt_eng:hover{
+color:#292929; 
+}
 
 /* CABECERA */
 .cabecera{
@@ -91,13 +98,13 @@ justify-content: space-between;
 h1{
     margin-left: 5%;
     border-bottom: 7px solid #292929;
-    width: 550px;
-    
+    width: 550px;   
 }
 
 .uxui{
-    text-align: left;
-    font-size: 33px;
+    align-self: start;
+    margin-left: 2%;
+    font-size: 31px;
     font-family: "theinhardt_med",sans-serif;
     padding-top: 4%;
     color: #292929;
@@ -449,6 +456,7 @@ padding-left:40px;
     }
 .trapecista{
     padding-bottom: 10%;
+    padding-top: 5%;
 }
     .contact_me {
         padding-bottom: 24px;
@@ -506,6 +514,15 @@ width: 768px;
 font-size: 15%;
 padding-bottom: 3%;
 padding-top: 3%;
+}
+
+.navbar_words_txt_eng{
+    display: flex;  
+    padding-top: 20%;
+    width: 100%;
+    padding-left: 0%;
+    margin-left: -40%;
+    color:#8b8b8b;
 }
 
 .cabecera{
@@ -777,8 +794,7 @@ display: flex;
 flex-wrap: nowrap;
 flex-direction: column;   
 }
-a{
-}
+
         
 /* CABECERA */
 
