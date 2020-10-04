@@ -59,6 +59,7 @@ width: 100%;
 margin-left: -40%;
 color:#8b8b8b;
 }
+
 .navbar_words_txt_eng:hover{
 color:#292929; 
 }
@@ -88,6 +89,7 @@ justify-content: space-between;
 
 
 .hello{
+    margin-left: 5%;
     background-size: cover;
     font-size: 80px;
     font-family: "theinhardt",sans-serif;
@@ -96,23 +98,28 @@ justify-content: space-between;
 }
 
 h1{
-    margin-left: 5%;
     border-bottom: 7px solid #292929;
     width: 550px;   
 }
 
+.uxui_alinear{
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+}
+
 .uxui{
-    align-self: start;
-    margin-left: 2%;
+
     font-size: 31px;
     font-family: "theinhardt_med",sans-serif;
     padding-top: 4%;
     color: #292929;
+    text-align: left;
 }
 
 
 .uxuitext{
-    margin-left: 5%;
     font-size: 20px;
     font-family: "SF_semi",sans-serif; 
     line-height: 150%; 
@@ -528,7 +535,8 @@ padding-top: 3%;
 .cabecera{
     display: flex;
     flex-wrap: nowrap;
-    flex-direction: column;     
+    flex-direction: column; 
+    text-align: left;   
 }
 
 /* CABECERA */
@@ -800,7 +808,7 @@ flex-direction: column;
 
 
 .hello{
-margin-left: 0%;
+margin-left: 10%;
 padding-top: 15%;
 display: flex;
 flex-wrap: nowrap;
@@ -809,21 +817,27 @@ font-size: 50px;
 }
 h1{  
 
-padding-top: 5%;
 width: 350px; 
 border-bottom: 5px solid #292929;
 }
-
+.uxui_alinear{
+    
+    width: 350px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    }
+    
 .uxui{
-
-font-size: 23px;  
+font-family: "theinhardt_med",sans-serif;
+font-size: 21px;  
 flex-wrap: nowrap;  
 }
 .uxuitext{
-font-size: 18px;  
+font-size: 16px;  
 flex-wrap: nowrap; 
-width: 400px; 
-padding-left: 30px;
+width: 350px; 
 }
 
 
