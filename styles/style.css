@@ -1064,9 +1064,20 @@ width: 350px;
 
 
 
-.btn_linkedin{
-font-size: 18px;
-
+.btn_linkedin_english {
+    text-decoration: none;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    padding-right: 75px;
+    padding-left: 75px;
+    font-family: "theinhardt_med",sans-serif;
+    font-size: 18px;
+    background-color: #292929;
+    color: #ffffff;
+    border-radius: 50px;
+    margin-left: 10%;
+    margin-top: 2%;
+    margin-bottom: 32px;
 }
 
 .btn_CV{
@@ -1133,142 +1144,27 @@ width: 120%;
 
 /* LATEST WORK */
 
-.my_latest_work_unit{
-width: 414px;
-font-size: 37px;
-background-color:#f8f8f8;
-padding-bottom: 100px;
-padding-top: 30px;
-height: 600px;
+.title_my_latest_work {
+    font-size: 50px;
+    font-family: "theinhardt",sans-serif;
+    text-align: center;
+    justify-content: center;
+    color: #292929;
+    background-color: #ffffff;
+    padding-top: 20px;
 }
-
-.poketwatch_img {
-width: 414px;
-display: none;
-}
-.poketwatch_img_ipad{
-width: 414px;
-display: block;
-background-color: #f8f8f8;
-display: flex;
-align-content: center;
- }
-
-.poketwatch_light{
-position: relative;
-top: auto;
-bottom: 0;
-left: 0;
-right: 0;
-height: 100%;
-width: 100%;
-opacity: 1;
-transition: .5s ease;
-background-color: #f8f8f8ee;
-display: flex;
-}
-.poketwatch_light_text{
-padding-top: 4%;
-padding-bottom: 7%;
-padding-left: 10%;
-padding-right: 10%;
-font-size: 16px;
-color: #292929;
-font-family:"SF_semi",sans-serif;
-line-height: 130%;
-text-align: left;
-
-}
-
-.btn_pocketwatch{
- display: none;   
-/* 
-text-decoration: none;
-padding-top: 20px;
-padding-bottom:15px;
-padding-right: 80px;
-padding-left: 80px;
-font-family: "theinhardt_med",sans-serif;
-font-size: 18px;
-background-color: #292929;
-color: #ffffff;
-border-radius: 50px;
-margin-top: 5%;
-margin-bottom: 0%;
-white-space: nowrap;
-margin-left: 0px;
-*/
-}
-
-.img_linea_separación{
-width: 414px;
-}
-
-/* poketwatch_section */
-.watchpoket_section{
-display: flex;
-flex-direction: column-reverse;
-align-content: center;
-margin-left: 0%;
-margin-right: 0%;
-margin-top: 10%;
-}
-.watchpoket_gif{
-display: flex;
-align-items: center;
-margin-left: 10%;
-margin-top: 7%;
-}
-.prototype_watchpoket_gif{
-width: 90%;
-}
-.watchpoket_text{
-margin-top: 10%;
-margin-left: 10%;
-margin-right: 10%;
-background-image: none
-}
-.watchpoket_text_h3{
-font-size: 22px;
-}
-.watchpoket_text_p{
-font-size: 16px;
-font-family: "SF_semi",sans-serif;
-line-height: 130%;
-color: #292929;
-padding-top: 2%;
-padding-bottom: 4%;
-padding-right: 12%;
-}
-
-.btn_watchpoket_section{
-display:block;
-text-decoration: none;
-margin-left: 20px;
-padding-top: 20px;
-padding-bottom:15px;
-padding-right: 80px;
-padding-left: 80px;
-font-family: "theinhardt_med",sans-serif;
-font-size: 18px;
-background-color: #292929;
-color: #ffffff;
-border-radius: 50px;
-margin-top: 5%;
-white-space: nowrap;
-}
-
 
 /* LATEST WORK _EDULISSS*/
 
-.my_latest_work_unit_2{
-    width: 414px;
-    font-size: 37px;
-    background-color:#ffffff;
-    padding-bottom: 100px;
-    padding-top: 60px;
-    height: 500px;
-    }
+.my_latest_work_unit_2 {
+    font-family: "theinhardt",sans-serif;
+    text-align: center;
+    justify-content: center;
+    color: #292929;
+    background-color: #ffffff;
+    height: 400px;
+    padding-top: 80px;
+}
     
     .edulis_img {
     width: 414px;
@@ -1309,8 +1205,7 @@ white-space: nowrap;
     }
     
 .btn_edulis{
-    display: none;    
-    /* POR SI QUIERO RECUPERAR EL BOTON
+
     
     text-decoration: none;
     padding-top: 20px;
@@ -1323,7 +1218,7 @@ white-space: nowrap;
     color: #ffffff;
     border-radius: 50px;
     margin-top: 5%;
-    margin-bottom: 0%;
+    margin-bottom: 10%;
     white-space: nowrap;
     margin-left: 0px;
     }
@@ -1331,8 +1226,7 @@ white-space: nowrap;
     .img_linea_separación{
     width: 414px;
     }
-    */
-}
+
     
     /* edulis_section */
     .edulis_section{
@@ -1389,7 +1283,109 @@ white-space: nowrap;
     }
 
 
+    my_latest_work_unit{
+        width: 414px;
+        font-size: 37px;
+        padding-bottom: 100px;
+        padding-top: 30px;
+        height: 600px;
+        }
+        
+        .poketwatch_img {
+        width: 414px;
+        display: none;
+        }
+        .poketwatch_img_ipad{
+        width: 414px;
+        display: block;
+        background-color: #f8f8f8;
+        display: flex;
+        align-content: center;
+         }
+        
+        .poketwatch_light{
+        position: relative;
+        top: auto;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 100%;
+        width: 100%;
+        opacity: 1;
+        transition: .5s ease;
+        background-color: #f8f8f8ee;
+        display: flex;
+        }
+        .poketwatch_light_text{
+        padding-top: 4%;
+        padding-bottom: 7%;
+        padding-left: 10%;
+        padding-right: 10%;
+        font-size: 16px;
+        color: #292929;
+        font-family:"SF_semi",sans-serif;
+        line-height: 130%;
+        text-align: left;
+        
+        }
+        
 
+        
+        /* poketwatch_section */
+        .watchpoket_section{
+        display: flex;
+        flex-direction: column-reverse;
+        align-content: center;
+        margin-left: 0%;
+        margin-right: 0%;
+        margin-top: 10%;
+        }
+        .watchpoket_gif{
+        display: flex;
+        align-items: center;
+        margin-left: 10%;
+        margin-top: 7%;
+        }
+        .prototype_watchpoket_gif{
+        width: 90%;
+        }
+        .watchpoket_text{
+        margin-top: 10%;
+        margin-left: 10%;
+        margin-right: 10%;
+        background-image: none
+        }
+        .watchpoket_text_h3{
+        font-size: 22px;
+        }
+        .watchpoket_text_p{
+        font-size: 16px;
+        font-family: "SF_semi",sans-serif;
+        line-height: 130%;
+        color: #292929;
+        padding-top: 2%;
+        padding-bottom: 4%;
+        padding-right: 12%;
+        }
+        
+        .btn_watchpoket_section{
+        display:block;
+        text-decoration: none;
+        margin-left: 20px;
+        padding-top: 20px;
+        padding-bottom:15px;
+        padding-right: 80px;
+        padding-left: 80px;
+        font-family: "theinhardt_med",sans-serif;
+        font-size: 18px;
+        background-color: #292929;
+        color: #ffffff;
+        border-radius: 50px;
+        margin-top: 5%;
+        white-space: nowrap;
+        }
+        
+        
 
 
 /* pasteleria_section */
