@@ -135,6 +135,24 @@ align-items: flex-start;
     margin-right: 10%;
 }
 
+.btn_linkedin_english{
+    text-decoration: none;
+    padding-top: 20px;
+    padding-bottom:15px;
+    padding-right: 73px;
+    padding-left: 73px;
+    font-family: "theinhardt_med",sans-serif;
+    font-size: 24px;
+    background-color: #292929;
+    color: #ffffff;
+    border-radius: 50px;
+    margin-left: 10%;
+    margin-top: 2%;
+    margin-bottom: 32px;
+}
+
+
+
 .btn_linkedin{
     text-decoration: none;
     padding-top: 20px;
@@ -232,21 +250,113 @@ align-items: flex-start;
 
 
 /* PROYECTOS */
-/* my_latest_work */
+/* TITULO */
 
 
 
-.my_latest_work_unit{
+.title_my_latest_work{
     font-size: 50px;
     font-family: "theinhardt",sans-serif;
     text-align: center;
     justify-content: center;
     color: #292929;
-    background-color: #F8F8F8;
-    height: 850px;
+    background-color: #ffffff;
     padding-top: 80px;
 
 }
+
+
+/* my_latest_work_unit_2_SETAS*/
+
+
+.my_latest_work_unit_2{
+    font-family: "theinhardt",sans-serif;
+    text-align: center;
+    justify-content: center;
+    color: #292929;
+    background-color: #ffffff;
+    height: 800px;
+    padding-top: 80px;
+    
+    }
+    
+    
+    .edulis_img_ipad {
+        display: none;
+        }
+    
+    .my_latest_work_2{
+        position: relative;
+        width: 100%;
+    
+    }
+    
+    .edulis{
+        display: block;
+        width: 100%;
+        height: auto;
+    
+    }
+    
+    
+    /* EDULIS*/
+    .edulis_section{
+        display: flex;
+        justify-content: space-between;
+        margin-left: 7%;
+        margin-right: 10%;
+        margin-top: 2%;
+        
+    }
+    
+    .edulis_text{
+     margin-top: 5%;
+     margin-right: 25%;
+     
+    }
+    
+    .edulis_text_h3{
+        font-family: "theinhardt_med",sans-serif;
+        font-size: 25px;
+        color: #292929;
+    }
+    .edulis_text_p{
+        font-size: 18px;
+        font-family: "SF_semi",sans-serif;
+        line-height: 150%;
+        
+        padding-top: 1%;
+        padding-bottom: 5%;
+        color: #292929;
+    
+    }
+    
+    .btn_edulis{
+        text-decoration: none;
+        padding-top: 20px;
+        padding-bottom:15px;
+        padding-right: 80px;
+        padding-left: 80px;
+        font-family: "theinhardt_med",sans-serif;
+        font-size: 24px;
+        background-color: #292929;
+        color: #ffffff;
+        border-radius: 50px;
+        margin-top: 5%;
+        white-space: nowrap;
+     }
+    
+    .ironhack{
+    margin-bottom: 40px;
+    width: 90%;    
+    }
+    
+    
+    .linea_separacion{
+        padding-top: 10%;
+    }
+    
+/* my_latest_work_unit_1_POKET WATCH*/   
 
 .poketwatch_img_ipad {
     display: none;
@@ -257,46 +367,11 @@ align-items: flex-start;
     width: 100%;
 
 }
-.title_my_latest_work{
-    padding-bottom: 3%;
-
-}
-
 
 .poketwatch{
     display: block;
     width: 100%;
     height: auto;
-
-}
-
-.poketwatch_light{
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 100%;
-    width: 100%;
-    opacity: 0;
-    transition: .5s ease;
-    background-color: #f8f8f8ee;
-    display: flex;
-}
-
-.btn_pocketwatch{
-text-decoration: none;
-padding-top: 20px;
-padding-bottom:15px;
-padding-right: 80px;
-padding-left: 80px;
-font-family: "theinhardt_med",sans-serif;
-font-size: 24px;
-background-color: #292929;
-color: #ffffff;
-border-radius: 50px;
-margin-top: 5%;
-white-space: nowrap;
 
 }
 
@@ -330,9 +405,9 @@ white-space: nowrap;
     display:none;
 }
 .watchpoket_text{
- margin-top: 20%;
+ margin-top: 15%;
  margin-left: 25%;
- background-image: url("../images/click_here.png");
+
 }
 
 .watchpoket_text_h3{
@@ -357,123 +432,6 @@ white-space: nowrap;
 
 
 
-/* my_latest_work_unit_2_SETAS*/
-
-
-.my_latest_work_unit_2{
-font-family: "theinhardt",sans-serif;
-text-align: center;
-justify-content: center;
-color: #292929;
-background-color: #ffffff;
-height: 800px;
-padding-top: 80px;
-
-}
-
-
-.edulis_img_ipad {
-    display: none;
-    }
-
-.my_latest_work_2{
-    position: relative;
-    width: 100%;
-
-}
-
-.edulis{
-    display: block;
-    width: 100%;
-    height: auto;
-
-}
-
-.edulis_light{
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 100%;
-    width: 100%;
-    opacity: 0;
-    transition: .5s ease;
-    background-color: #f8f8f8ee;
-    display: flex;
-}
-
-.btn_edulis{
-text-decoration: none;
-padding-top: 20px;
-padding-bottom:15px;
-padding-right: 80px;
-padding-left: 80px;
-font-family: "theinhardt_med",sans-serif;
-font-size: 24px;
-background-color: #292929;
-color: #ffffff;
-border-radius: 50px;
-margin-top: 5%;
-white-space: nowrap;
-
-}
-
-
-.my_latest_work_2:hover .edulis_light {
-        opacity: 1;
-
-}
-
-.edulis_light_text{
-    padding-top: 120px;
-    padding-left: 15%;
-    padding-right: 15%;
-    font-size: 25px;
-    color: #292929;
-    font-family: "theinhardt_med",sans-serif;
-    line-height: 150%;
-}
-
-
-/* EDULIS*/
-.edulis_section{
-    display: flex;
-    justify-content: space-between;
-    margin-left: 7%;
-    margin-right: 10%;
-    margin-top: 2%;
-    margin-bottom: 10%;
-}
-.btn_edulis_section{
-    display:none;
-}
-.edulis_text{
- margin-top: 20%;
- margin-right: 25%;
- background-image: url("../images/hand_portfolio.png");
-}
-
-.edulis_text_h3{
-    font-family: "theinhardt_med",sans-serif;
-    font-size: 25px;
-    color: #292929;
-}
-.edulis_text_p{
-    font-size: 18px;
-    font-family: "SF_semi",sans-serif;
-    line-height: 150%;
-
-    padding-top: 1%;
-    padding-bottom: 5%;
-    color: #292929;
-
-}
-
-.linea_separacion{
-    padding-top: 10%;
-}
-
 
 
 /* pasteleria */
@@ -490,9 +448,8 @@ white-space: nowrap;
 }
 
 .pasteleria_text{
- margin-top: 20%;
+ margin-top: 15%;
  margin-right: 25%;
- background-image: url("../images/click_eye.png");
 }
 
 .pasteleria_text_h3{
