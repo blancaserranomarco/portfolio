@@ -442,11 +442,13 @@ align-items: flex-start;
     justify-content: space-between;
     margin-left: 7%;
     margin-right: 10%;
-    margin-top: 2%;
-    margin-bottom: 10%;
+    margin-top: 7%;
+    margin-bottom: 7%;
 
 }
-
+.pasteleria_img_ipad {
+    display: none;
+}
 .pasteleria_text{
  margin-top: 15%;
  margin-right: 25%;
@@ -924,6 +926,17 @@ white-space: nowrap;
 
 /* pasteleria_section */
 
+.pasteleria_img {
+    width: 768px;
+    display: none;
+    }
+    .pasteleria_img_ipad{
+        width: 768px;
+        display: block;
+        background-color: #ffffff;
+        display: flex;
+        align-content: center;
+    }
 .pasteleria_section{
     display: flex;
     flex-direction: column-reverse;
